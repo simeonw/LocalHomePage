@@ -36,6 +36,9 @@ $devtools = array(
 //	array( 'name' => 'Tool', 'url' => 'http://example.com/' ),
 	array( 'name' => 'Web Host Admin', 'url' => 'http://example.com/' ),
 	array( 'name' => 'Github', 'url' => 'http://github.com/' ),
+	array( 'name' => 'LocalHost', 'url' => 'local.dev' ),
+	array( 'name' => 'Phpmyadmin', 'url' => 'local.dev/phpmyadmin' ),
+	array( 'name' => 'Django', 'url' => 'local.dev' ),
 	);
 
 /*
