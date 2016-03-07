@@ -39,6 +39,7 @@ $devtools = array(
 	array( 'name' => 'LocalHost', 'url' => 'local.dev' ),
 	array( 'name' => 'Phpmyadmin', 'url' => 'phpmyadmin' ),
 	array( 'name' => 'Django', 'url' => 'local.dev' ),
+	array( 'name' => 'Terminal Log', 'url' => 'http://root.dev/log.html' )
 	);
 
 /*
@@ -68,4 +69,4 @@ $siteoptions = array(
 *  your directories will be hidden.
 * 
 */
-$hiddensites = array( 'home', 'config.php');
+$hiddensites = array( 'home', 'config.php','log.html');
