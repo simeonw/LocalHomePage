@@ -13,7 +13,7 @@
 
 
 /** directory name(s) */
-$dir = array("/var/www/html/*");
+$dir = array("/var/www/*");
 					
 /** Your local top level domain */
 $tld = 'dev';
@@ -37,7 +37,7 @@ $devtools = array(
 	array( 'name' => 'Web Host Admin', 'url' => 'http://example.com/' ),
 	array( 'name' => 'Github', 'url' => 'http://github.com/' ),
 	array( 'name' => 'LocalHost', 'url' => 'local.dev' ),
-	array( 'name' => 'Phpmyadmin', 'url' => 'local.dev/phpmyadmin' ),
+	array( 'name' => 'Phpmyadmin', 'url' => 'phpmyadmin' ),
 	array( 'name' => 'Django', 'url' => 'local.dev' ),
 	);
 
@@ -68,4 +68,4 @@ $siteoptions = array(
 *  your directories will be hidden.
 * 
 */
-$hiddensites = array( 'home', );
+$hiddensites = array( 'home', 'config.php');
