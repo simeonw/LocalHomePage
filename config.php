@@ -13,7 +13,7 @@
 
 
 /** directory name(s) */
-$dir = array("/var/www/*");
+$dir = array("/var/www/html/*");
 					
 /** Your local top level domain */
 $tld = 'dev';
