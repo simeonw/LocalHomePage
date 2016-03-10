@@ -34,12 +34,11 @@ $icons = array( 'apple-touch-icon.png', 'favicon.ico' );
 */
 $devtools = array(
 //	array( 'name' => 'Tool', 'url' => 'http://example.com/' ),
-	array( 'name' => 'Web Host Admin', 'url' => 'http://example.com/' ),
 	array( 'name' => 'Github', 'url' => 'http://github.com/' ),
-	array( 'name' => 'LocalHost', 'url' => 'local.dev' ),
-	array( 'name' => 'Phpmyadmin', 'url' => 'phpmyadmin' ),
-	array( 'name' => 'Django', 'url' => 'local.dev' ),
-	array( 'name' => 'Terminal Log', 'url' => 'http://root.dev/log.html' )
+	array( 'name' => 'LAMP', 'url' => 'http://local.dev' ),
+	array( 'name' => 'Phpmyadmin', 'url' => 'http://root.dev/phpmyadmin' ),
+	array( 'name' => 'Django', 'url' => 'http://localhost:8000' ),
+	array( 'name' => 'Rails', 'url' => 'http://localhost:3000' )
 	);
 
 /*
