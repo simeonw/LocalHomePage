@@ -16,7 +16,7 @@
 $dir = array("/var/www/html/*");
 					
 /** Your local top level domain */
-$tld = 'dev';
+$tld = 'test';
 
 /*
 *
@@ -35,10 +35,11 @@ $icons = array( 'apple-touch-icon.png', 'favicon.ico' );
 $devtools = array(
 //	array( 'name' => 'Tool', 'url' => 'http://example.com/' ),
 	array( 'name' => 'Github', 'url' => 'http://github.com/' ),
-	array( 'name' => 'LAMP', 'url' => 'http://local.dev' ),
+	array( 'name' => 'LAMP', 'url' => 'http://local.test' ),
 	array( 'name' => 'Phpmyadmin', 'url' => 'http://root.dev/phpmyadmin' ),
 	array( 'name' => 'Django', 'url' => 'http://localhost:8000' ),
-	array( 'name' => 'Rails', 'url' => 'http://localhost:3000' )
+	array( 'name' => 'Rails', 'url' => 'http://localhost:3000' ),
+	array( 'name' => 'Foundation', 'url' => 'http://foundation.test' )
 	);
 
 /*

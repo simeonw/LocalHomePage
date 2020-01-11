@@ -70,7 +70,7 @@
 		            		$displayname = $siteoptions[$project];
 		            }
 //		            printf( '<a class="site" href="%1$s">%2$s</a>', $siteroot, $displayname );
-				 printf( '<a class="site" href="http://'.$project.'.dev">%2$s</a>', $siteroot, $displayname );
+				 printf( '<a class="site" href="http://'.$project.'.'.$tld.'">%2$s</a>', $siteroot, $displayname );
 
 
 					// Display an icon with a link to the admin area
