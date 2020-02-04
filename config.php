@@ -16,7 +16,7 @@
 $dir = array("/var/www/html/*");
 					
 /** Your local top level domain */
-$tld = 'test';
+$tld = '192.168.33.10.xip.io';
 
 /*
 *
@@ -35,11 +35,11 @@ $icons = array( 'apple-touch-icon.png', 'favicon.ico' );
 $devtools = array(
 //	array( 'name' => 'Tool', 'url' => 'http://example.com/' ),
 	array( 'name' => 'Github', 'url' => 'http://github.com/' ),
-	array( 'name' => 'LAMP', 'url' => 'http://local.test' ),
-	array( 'name' => 'Phpmyadmin', 'url' => 'http://root.dev/phpmyadmin' ),
+	array( 'name' => 'LAMP', 'url' => "http://local.test/" ),
+	array( 'name' => 'Phpmyadmin', 'url' => 'http://root.test/phpmyadmin' ),
 	array( 'name' => 'Django', 'url' => 'http://localhost:8000' ),
 	array( 'name' => 'Rails', 'url' => 'http://localhost:3000' ),
-	array( 'name' => 'Foundation', 'url' => 'http://foundation.test' )
+	array( 'name' => 'Foundation', 'url' => "http://foundation.192.168.33.10.xip.io/" )
 	);
 
 /*
@@ -53,7 +53,7 @@ $devtools = array(
 *
 *  Otherwise, if you want to set additional options you'll use an array for the options.
 *
-*  'sitedir' => array( 'displayname' => 'Display Name', 'adminurl' => 'http://example.sites.dev/admin' ),
+*  'sitedir' => array( 'displayname' => 'Display Name', 'adminurl' => 'http://example.192.168.33.10.xip.io/admin' ),
 *
 */			
 $siteoptions = array(

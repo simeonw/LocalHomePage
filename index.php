@@ -17,13 +17,14 @@
 
 		    <header>
 
-			    <h1>My Local Sites</h1>
+			    <h1>My Local Sites </h1>
 
 			    <nav>
 			        <ul>
-<?php
+<?php 
 			            foreach ( $devtools as $tool ) {
-			            	printf( '<li><a href="%1$s">%2$s</a></li>', $tool['url'], $tool['name'] );
+			            	print '<li><a href="'.$tool['url'].'">'.$tool['name'].'</a></li>';
+			            	#sprintf( '<li><a href="%1$s">%2$s</a></li>', $tool['url'], $tool['name'] );
 			            }
 ?>
 			        </ul>
